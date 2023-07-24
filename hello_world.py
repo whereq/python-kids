@@ -1,8 +1,8 @@
-msg = "in the middle of an important leson"
+msg = "in the middle of an important lesson"
 print(msg)
 msg = "Harry \"I need to go to the washroom, professor."
 print(msg)
-msg = "Snape \"Are you sirious?"
+msg = "Snape \"Are you Sirius?"
 print(msg)
 msg = "Harry \"No, I'm the one and only Harry potter."
 print(msg)
@@ -28,7 +28,7 @@ msg = "Dumbldore enters \"And Gryfindor wins the hose cup!"
 print(msg)
 msg = "Snape \BUT I TOOK ALL THE POINTS FROM GRIFINDOR!"
 print(msg)
-msg = "Students scramble home,"
+msg = "Students scramble home."
 print(msg)
 msg = "The end."
 print(msg)
