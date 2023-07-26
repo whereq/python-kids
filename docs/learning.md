@@ -1,4 +1,7 @@
-# Python
+# Python local env setup
+https://cloud.google.com/python/docs/setup#installing_python
+
+# Python Learning Docs
 https://learn.microsoft.com/en-us/training/modules/intro-to-python/
 https://docs.python.org/3/index.html
 
