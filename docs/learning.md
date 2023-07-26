@@ -1,5 +1,6 @@
 # Python
 https://learn.microsoft.com/en-us/training/modules/intro-to-python/
+https://docs.python.org/3/index.html
 
 https://www.python.org/doc/
 https://python.land/python-tutorial
