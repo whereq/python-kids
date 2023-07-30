@@ -59,8 +59,8 @@ class Solution:
     my_pen.forward(30)
     my_pen.down()
     my_pen.forward(450)
-  for i in range:
-      my_pen.up()
+  # for i in range:
+      # my_pen.up()
 
 
 
