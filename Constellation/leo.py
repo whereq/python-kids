@@ -10,25 +10,27 @@ class Solution:
     my_pen.hideturtle()
 
     # Draw Leo constellation
+    # x, y, radius, color, if connect to previous star
     stars = [
-      (-200, 0, 30),
-      (-130, 100, 30),
-      (200, 250, 20),
-      (150, 270, 25),
-      (270, 400, 35),
-      (250, 400, 25),
-      (270, 260, 20),
-      (320, 200, 30),
-      (-100, 70, 25),
+      (-200, 0, 3, "white", 1),
+      (-130, 100, 3, "white", 1),
+      (200, 250, 3, "white", 1),
+      (150, 270, 3, "white", 1),
+      (270, 400, 3, "white", 1),
+      (250, 400, 3, "white", 1),
+      (270, 260, 3, "white", 1),
+      (320, 200, 3, "white", 1),
+      (-100, 70, 3, "white", 1),
     ]
 
-    for i, (x, y, size) in enumerate(stars):
-      # self.drawStar(my_pen, x, y, size)
-      self.drawCircle(my_pen, x, y, 3, "white")
+    for i, (x, y, r, color, isConnected) in enumerate(stars):
+      self.drawCircle(my_pen, x, y, r, color)
       my_pen.penup()
       my_pen.goto(x, y)
       my_pen.pendown()
-      my_pen.goto(stars[i - 1][0], stars[i - 1][1])
+
+      if isConnected == 1: 
+        my_pen.goto(stars[i - 1][0], stars[i - 1][1])
         
     
 
@@ -40,19 +42,6 @@ class Solution:
     pen.color(color)
     pen.begin_fill()
     pen.circle(radius)
-    pen.end_fill()
-
-
-  def drawStar(self, pen, x, y, size):
-    pen.up()
-    pen.goto(x, y)
-    pen.down()
-
-    pen.fillcolor("white")
-    pen.begin_fill()
-    for _ in range(5):
-        pen.forward(size)
-        pen.right(144)
     pen.end_fill()
 
 
