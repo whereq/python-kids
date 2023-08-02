@@ -10,7 +10,7 @@ class Solution:
     #define a few colors
     color1 = "DeepPink1"
     color2 = "Yellow"
-    color3 = "orange"
+    color3 = "blue"
     my_pen.up()
     #pick a starting point
     my_pen.goto(-60,-90)
@@ -18,7 +18,7 @@ class Solution:
 
     #draw a little spirograph donut
     #do this sixty times to make a fun pattern
-    for i in range(60):      
+    for i in range(100):      
       my_pen.color(color1)
       my_pen.right(10)
       my_pen.forward(90)
@@ -26,8 +26,8 @@ class Solution:
       my_pen.right(10)
       my_pen.forward(65)
       my_pen.color(color3)
-      my_pen.left(86)
-      my_pen.forward(45)
+      my_pen.left(73)
+      my_pen.forward(75)
       
     my_pen.hideturtle()
 
