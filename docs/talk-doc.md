@@ -11,4 +11,4 @@ Hi team, welcome to participate in the projects! Here we have another place for 
 
 [Aria]: Henlo sorry, Hello!!!!  Is it just me or does leo(the Constellation) look like a clothes hanger? 
 
-[Maggie]: It,s not a cloths hanger, that was just a trial test, we still have to perfect it. Also, I will be gone for a week since I have camp, maybe we could start our project August 12? Could we have a meeting time? We could have a zoom meeting to discuss, what time will be best for you?
+[Maggie]: It's not a cloths hanger, that was just a trial test, we still have to perfect it. Also, I will be gone for a week since I have camp, maybe we could start our project August 12? Could we have a meeting time? We could have a zoom meeting to discuss, what time will be best for you?
